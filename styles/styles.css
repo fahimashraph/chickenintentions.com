@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+body {
+  background-image: url(https://wallpaperaccess.com/full/4420179.jpg);
+  background-position-x: 50cm;
+  background-position-y: 25cm;
+  background-repeat: repeat;
+}
+.ourcontent {
+  font-size: x-large;
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  max-width: 700px;
+  line-height: 2.5em;
+  text-align: left;
+  padding-left: 60px;
+  text-indent: 2px;
+}
+h1 {
+  color: #2f6089;
+  font-family: "Dancing Script", cursive;
+  font-size: 0.9cm;
+  font-weight: bolder;
+  max-width: 600px;
+  text-align: left;
+  margin-left: 3.5cm;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.under-head {
+  color: hsl(0, 0%, 0%);
+  font-family: "Dancing Script", cursive;
+  font-size: 1cm;
+  font-weight: 900;
+  max-width: 600px;
+  text-align: left;
+  margin-left: 3.5cm;
+  
+  padding-bottom: 0px;
+}
+
+.sentense {
+  font-family: "Pacifico", cursive;
+  font-size: x-large;
+  font-weight: 300;
+  margin: auto;
+  max-width: 500px;
+  text-align: left;
+}
+button :hover {
+  background-color: turquoise;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+.active {
+  background-color: orangered;
+}
+.navbar :hover {
+  background-color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+.contacts {
+  font-family: "Oswald", sans-serif;
+  font-size: 1cm;
+  background-color: grey;
+  color: white;
+  max-width: 11cm;
+  max-height: 11cm;
+  text-align: center;
+  font-size: 0.5cm;
+  font-weight: 200;
+  overflow:auto
+  align-items: center;
+  margin: auto;
+  margin-bottom: 3cm;
+  border-radius: 20px;
+}
+.contacts a {
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  color: white;
+  font-size: 0.5cm;
+  font-weight: 200;
+  text-decoration: underline;
+}

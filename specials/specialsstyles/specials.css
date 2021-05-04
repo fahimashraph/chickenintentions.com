@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+body {
+  font-size: large;
+  background-color: #f8c700;
+}
+.full-content {
+  font-family: "Courgette", cursive;
+  font-size: 00.5cm;
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+  align-items: center;
+}
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1cm;
+  letter-spacing: 1mm;
+  font-weight: 500;
+  text-decoration-line: none;
+  padding-top: 0.4cm;
+  padding-bottom: 0.5cm;
+}
+
+.sentense {
+  font-family: "Courgette", cursive;
+  font-size: 0.8cm;
+  font-weight: 800;
+  text-indent: 0.3cm;
+}
+.ourcontent {
+  font-family: "Courgette", cursive;
+  font-size: 0.6cm;
+  font-weight: 400;
+}
+.tacos-lemon {
+  border-radius: 8px;
+  padding-bottom: 1cm;
+}
+.image-two {
+  border-radius: 8px;
+  padding-bottom: 1cm;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+.active {
+  background-color: orangered;
+}
+.navbar :hover {
+  background-color: black;
+  text-decoration: none;
+}
+.contacts {
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  background-color: grey;
+  color: white;
+  max-width: 11cm;
+  max-height: 6cm;
+  text-align: center;
+  font-size: 0.5cm;
+  font-weight: 200;
+  overflow: hidden;
+  margin-bottom: 3cm;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 3cm;
+  border-radius: 20px;
+}
+.contacts a {
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  color: white;
+  font-size: 0.5cm;
+  font-weight: 200;
+  text-decoration: underline;
+}
